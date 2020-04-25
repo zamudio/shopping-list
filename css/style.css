@@ -1,35 +1,32 @@
 body {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
   background-color: #e9eff6;
   font-family: Georgia, "Times New Roman", Times, serif;
-  margin: auto;
-  max-width: 50%;
 }
 
-.container {
+/* .container {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .fancyTitle {
   text-align: center;
 }
 
 .description {
-  margin: 25px 0px 15px 0px;
   text-align: center;
   font-size: 13px;
 }
 
 .btn {
   display: flex;
-  flex-flow: row nowrap;
   justify-content: center;
   margin-bottom: 10px;
 }
 
 .list {
-  margin: auto;
-  width: 50%;
   border: 1.5px solid #111;
   border-radius: 25px;
   padding: 10px;
