@@ -1,0 +1,53 @@
+body {
+  background-color: #e9eff6;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.fancyTitle {
+  text-align: center;
+}
+
+.description {
+  margin: 25px 0px 15px 0px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.btn {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.list {
+  margin: auto;
+  width: 50%;
+  border: 1.5px solid #111;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.shadow {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+hr {
+  width: 250px;
+}
