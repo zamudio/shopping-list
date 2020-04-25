@@ -1,12 +1,13 @@
 body {
   background-color: #e9eff6;
   font-family: Georgia, "Times New Roman", Times, serif;
+  margin: auto;
+  max-width: 50%;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 100%;
 }
 
 .fancyTitle {
